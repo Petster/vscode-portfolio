@@ -12,25 +12,9 @@ const SidePanel = () => {
           url: "http://github.com/petster"
         },
         {
-          icon: faYoutube,
-          url: "https://www.youtube.com/petstergaming"
-        },
-        {
-          icon: faTwitter,
-          url: "https://twitter.com/Petsterr"
-        },
-        {
-          icon: faTwitch,
-          url: "https://twitch.tv/petster"
-        },
-        {
           icon: faLinkedin,
           url: "https://linkedin.com/in/jasontpalmeri"
         },
-        {
-          icon: faInstagram,
-          url: "https://www.instagram.com/petster12/"
-        }
     ];
 
   return (

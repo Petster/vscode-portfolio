@@ -30,7 +30,7 @@ const Portfolio = () => {
                         <div className="flex-grow"></div>
                     </div>
                     <hr/>
-                    <div className="lg:masonry-2-col xl:masonry-3-col p-2">
+                    <div className="masonry-container masonry-responsive p-2">
                         {profWork.map((da, index) =>
                             da.url !== "#" ? (<WorkCard key={index} name={da.title} desc={da.desc} url={da.url} img={da.img_url} />) : (<WorkCard key={index} name={da.title} desc={da.desc} url={""} img={da.img_url} />)
                         )}
@@ -63,7 +63,7 @@ const Portfolio = () => {
                             </a>
                         </div>
                     </div>
-                    <div className="lg:masonry-2-col xl:masonry-3-col p-2">
+                    <div className="masonry-container masonry-responsive p-2">
                         {workData.map((da, index) =>
                             da.url !== "#" ? (<WorkCard key={index} name={da.title} desc={da.desc} url={da.url} img={da.img_url} />) : (<WorkCard key={index} name={da.title} desc={da.desc} url={""} img={da.img_url} />)
                         )}
