@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router'
 import React, { useState } from 'react'
 
 const ExplorerItem = ({icon, title, padding, color, link, url, outLink}) => {
