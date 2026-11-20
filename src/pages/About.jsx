@@ -5,7 +5,7 @@ import {AboutMeContent} from "../data/ContentData";
 import {useLineNumber} from "../context/LineNumberContext";
 import {useWindowMenu} from "../context/WindowMenuContext";
 import myFace from '../img/myface_transparent.png'
-import {Link} from "react-router-dom";
+import {Link} from "react-router";
 
 const About = () => {
     const { setLineNumber } = useLineNumber();
